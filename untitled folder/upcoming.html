@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js">
+	</script>
+
+
+
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!--swifty slider-->
+	<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
+		defer></script>
+	<link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.0/dist/css/swiffy-slider.min.css" rel="stylesheet"
+		crossorigin="anonymous">
+
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<link rel="stylesheet" href="style.css">
+	</script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+
+	<title>Upcoming Games</title>
+</head>
+
+<body onload="document.getElementById('defaultOpen').click();" class="grey lighten-3">
+
+	<!--header starts-->
+	<header>
+
+		<nav class="bx_sh grey lighten-4">
+			<div class="nav-wrapper transparent">
+				<a href="#!" class="brand-logo text_up">match overview</a>
+				<a href="profile.html"><i class="large material-icons right white-text">account_circle</i></a>
+				<a href="index.html"> <i class="large material-icons left white-text">chevron_left</i> </a>
+			</div>
+		</nav>
+
+
+	</header>
+	<!--upcoming main-->
+	<div class="upcoming_main center" style="padding-top: 90px;">
+		<p class="white-text center">La liga 2,January 2022 <br>Camp Nou,Barcelona</p>
+		<div class="pick row container">
+
+			<div class="selec1 col s4 m4 l4"><img src="img/barce.png" alt="" class="responsive-img" style="width: 150px;height: auto;"></div>
+			<h4 class="white-text col s4 m4 l4 center">V S</h4>
+			<div class="selec2 col s4 m4 l4 right"><img src="img/Liverpool.png" alt="" class="responsive-img" style="width: 150px;height: auto;"></div>
+		</div>
+	</div>
+
+
+	<div class="container  ">
+		<h6>Place Bet</h6>
+		<div class="tab tabs_bt ">
+			<button class="tablinks active black-text " onclick="openCity(event, 'London')" id="defaultOpen">Private
+				Bet</button>
+			<button class="tablinks center black-text " onclick="openCity(event, 'Paris')">Betting circle</button>
+		</div>
+
+		<div id="London" class="tabcontent">
+			<div class="row ">
+
+			<div class="half_card z-depth-2 col s12 m6 l6" >
+				<h6>Select Opponent</h6>
+				<p class="gret-text lighten-4">Username</p>
+				<input type="text" placeholder="Enter username..." class="col s12 m6 l6">
+				<i class="small material-icons right grey-text lighten-3">search</i>
+			</div>
+		</div>
+		<div class="row">
+			<div class="half_half_card z-depth-2 col s12 m6 l6">
+
+				<div class="card_tt">
+					<h6>Possible Outcome</h6>
+					<p>select team</p>
+				</div>
+				<div class="sco_teams">
+					<div class="barcelonal z-depth-1 option" id="option1" tabindex="1">
+						<img src="img/barce.png" alt="">
+						<p class="grey-text center lighten-4"> Barcelona</p>
+					</div>
+					<h3 class="black-text lighten-4">VS</h3>
+
+
+					<div class="Liverpooll z-depth-1  option" id="option1" tabindex="1">
+						<img src="img/Liverpool.png" alt="">
+						<p class="grey-text center lighten-4"> Liverpool</p>
+					</div>
+				</div>
+				<p>Select Outcome</p>
+				<div class="outcome">
+					<div class="selections transparent z-depth-1" id="option2" tabindex="1">WIN</div>
+					<div class="selections transparent z-depth-1" id="option2" tabindex="1">DRAW</div>
+					<div class="selections transparent z-depth-1" id="option2" tabindex="1">WIN</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="half_card z-depth-2 col s12 m6 l6">
+				<p class="gret-text lighten-4">Amount</p>
+				<input type="text" placeholder="Enter Amount...">
+
+			</div>
+		</div>
+			<div class="modalls row">
+				<div class="col s12 m6 l6">
+				<a class="waves-effect waves-light btn place modal-trigger deep-purple accent-4" href="#demo-modal">Place Bet</a>
+					</div>
+				<!-- Modal Structure -->
+				<div id="demo-modal" class="modal bottom-sheet white">
+					<div class="modal-content">
+						<h6>Successful</h6>
+						<p>Your bet has been successfully placed </p>
+							<div class="ico">
+							  <i class=" large material-icons deep-purple-text accent-4 ">check_circle</i>
+							</div>
+					</div>
+					<div class="modal-footer">
+						<a href="#!" class=" modal-action 
+                        modal-close waves-effect
+                        waves-green btn deep-purple accent-4">
+							back
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div id="Paris" class="tabcontent">
+			<div class="row">
+				<div class="half_half_card z-depth-2 col s12 m6 l6">
+	
+					<div class="card_tt">
+						<h6>Possible Outcome</h6>
+						<p>select team</p>
+					</div>
+					<div class="sco_teams">
+						<div class="barcelonal z-depth-1 option" id="option1" tabindex="1">
+							<img src="img/barce.png" alt="">
+							<p class="grey-text center lighten-4"> Barcelona</p>
+						</div>
+						<h3 class="black-text lighten-4">VS</h3>
+	
+	
+						<div class="Liverpooll z-depth-1  option" id="option1" tabindex="1">
+							<img src="img/Liverpool.png" alt="">
+							<p class="grey-text center lighten-4"> Liverpool</p>
+						</div>
+					</div>
+					<p>Select Outcome</p>
+					<div class="outcome">
+						<div class="selections transparent z-depth-1" id="option2" tabindex="1">WIN</div>
+						<div class="selections transparent z-depth-1" id="option2" tabindex="1">DRAW</div>
+						<div class="selections transparent z-depth-1" id="option2" tabindex="1">WIN</div>
+					</div>
+	
+				</div>
+			</div>
+			<div class="row">
+				<div class="half_card z-depth-2 col s12 m6 l6">
+					<p class="gret-text lighten-4">Amount</p>
+					<input type="text" placeholder="Enter Amount...">
+	
+				</div>
+			</div>
+			<div class="modalls">
+				<a class="waves-effect waves-light btn place modal-trigger deep-purple accent-4" href="#modal">Place Bet</a>
+
+				<!-- Modal Structure -->
+				<div id="modal" class="modal bottom-sheet white">
+					<div class="modal-content">
+						<h6>Successful</h6>
+						<p>Your bet has been successfully placed </p>
+							<div class="ico">
+							  <i class=" large material-icons deep-purple-text accent-4 ">check_circle</i>
+							</div>
+					</div>
+					<div class="modal-footer">
+						<a href="#!" class=" modal-action 
+                        modal-close waves-effect
+                        waves-green btn deep-purple accent-4">
+							back
+						</a>
+					</div>
+				</div>
+			</div>
+	
+		</div>
+
+
+	</div>
+
+	<!--bottom nav-->
+	<div class="bottom_nav">
+		<nav class="nav purple darken-4">
+			<a href="#" class="nav__link">
+				<i class="material-icons nav__icon">home</i>
+
+			</a>
+			<a href="games.html" class="nav__link nav__link--active">
+				<i class="material-icons nav__icon">person</i>
+
+			</a>
+			<a href="#" class="nav__link">
+				<i class="material-icons nav__icon">devices</i>
+
+			</a>
+			<a href="#" class="nav__link">
+				<i class="material-icons nav__icon">lock</i>
+
+			</a>
+			<a href="#" class="nav__link">
+				<i class="material-icons nav__icon">account_balance_wallet</i>
+
+			</a>
+		</nav>
+	</div>
+
+
+
+
+
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	<script src="main.js"></script>
+	<script>
+
+		//tabs start//
+
+
+
+		function openCity(evt, cityName) {
+			var i, tabcontent, tablinks;
+			tabcontent = document.getElementsByClassName("tabcontent");
+			for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			}
+			tablinks = document.getElementsByClassName("tablinks");
+			for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].className = tablinks[i].className.replace(" active", "");
+			}
+			document.getElementById(cityName).style.display = "block";
+			evt.currentTarget.className += " active";
+		}
+		//tab ends//
+
+		//modals//
+
+		$(document).ready(function () {
+			$('.modal').modal();
+		})
+
+	</script>
+</body>
+
+</html>

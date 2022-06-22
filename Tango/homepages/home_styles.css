@@ -1,0 +1,87 @@
+*{
+	font-family: inter;
+}
+nav{
+	padding-right: 20px;
+	background-color: #1f83e5;
+}
+nav img{
+	height: 20px;
+	width: auto;
+}
+.box_line{
+	box-shadow: none;
+}
+.top_page{
+	height: 30vh;
+	background-color: #1f83e5;
+	background-image: url(img/path56.png);
+	background-repeat: no-repeat;
+	background-position: absolute;
+	border-bottom-left-radius: 14px;
+	border-bottom-right-radius: 14px;
+	margin-bottom: 30px;
+}
+main{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 49px;
+}
+.sport{
+	background-color: #fff;
+	padding-top: 30px;
+	margin-bottom: 20px;
+}
+.main_body img{
+	margin-top: -70px;
+}
+.sport_section{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.sport_section img{
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.box1{
+	width: 90px;
+	height: 30px;
+	background-color: black;
+	border-radius: 6px;
+}
+.box1 p{
+	text-align: center;
+	margin-top:-1px;
+}
+.box{
+	width: 30px;
+	height: 30px;
+	border-radius: 6px;
+}
+.setup{
+	display: flex;
+	justify-content: space-between;
+	margin-right: 40px;
+}
+.cd{
+	border-radius: 14px;
+	background-color: #0b2136;
+}
+.small h6{
+	font-size: 18px;
+}
+.teams{
+	display: flex;
+	justify-content: space-between;
+}
+.score p{
+	text-align: center;
+}
+/*swiper*/
+
+
+
+/*trial*/
+
+

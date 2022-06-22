@@ -1,0 +1,228 @@
+header{
+    background-color: #0A1558;
+    background-image: url('img/hro\ 1.png');
+    background-repeat: no-repeat;
+    background-size: 900px auto;
+    background-position: right;
+    min-height: 768px; 
+}
+@media screen and (max-width:670px){
+    header{
+        min-height: 75vh;
+        margin-bottom: 60px;
+    }
+    .dis_none{
+        display: none;
+    }
+    .dis_on{
+        justify-content: center;
+        text-align: center;
+    }
+   span h5 .fm{
+     margin-left: 150px;
+     margin-top: 40px;
+    }
+    /*section*/
+    .section h3{
+        display: none;
+    }
+    .btnn{
+        margin-right: 150px;
+    }
+    .other .floatter{
+        display: none;
+    }
+    .con-cover .btn{
+        margin-left: 35%;
+    }
+    .footbody{
+        padding-top: 20px;
+    }
+    .footbody h2{
+        text-align: center;
+        font-size: 30px;
+    }
+    .footbody .symbol{
+        display: none;
+    }
+    
+
+}
+.boiler ul .log{
+    margin-top: 20px;
+}
+
+.press{
+    margin-top: 20px;
+}
+.backgroundimg{
+    width: auto;
+    position: absolute;
+    left: 581px;
+    top: 0;
+    mix-blend-mode: screen;
+}
+.backgroundimg img{
+    height: 768px;
+}
+.btn{
+    text-transform: capitalize;
+}
+
+.fm{
+    font-family: lato sans-serif;
+}
+.main-cop{
+    margin-top: calc(768px - 544px);
+}
+.btn .rad{
+    border-radius: 5px;
+} 
+/*header ends*/
+
+
+.footbody{
+    background-color: #0A1558;
+    
+}
+.footbody_head{
+    padding-bottom: 45px;
+}
+.symbol{
+    margin-top: -130px;
+    opacity: 0.1;
+}
+h1,h2,h3,h4,h5,h6,p{
+    font-family: lato;
+}
+.pro{
+    text-align: center;
+}
+
+/*section*/
+
+section{
+    background-color:  rgba(246, 248, 251, 1);
+    min-height: 768px; 
+}
+
+.down{
+    margin-top: calc(768px - 328px);
+    
+}
+.section h3{
+    margin-top: 80px;
+    font-family: lato sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    
+}
+.btnn{
+    margin-top: -72px;
+  background-color: rgba(10, 21, 88, 1);
+}
+
+.floatter{
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    z-index: 1;
+
+}
+.books img{
+    height: 180px;
+    width: 160px;
+}
+.note{
+    margin-left: 90px;
+    margin-top: -130px;
+    width: 160px;
+    height: 180px;
+}
+.note img{
+    height: 180px;
+    width: 160px;
+}
+.con-cover{
+    padding-top: 40px;
+    
+}
+.con-cover .btn{
+    background-color: rgba(10, 21, 88, 1);
+}
+.other{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.team-section{
+    background-color: rgba(10, 21, 88, 1);
+    min-height: 400px;
+}
+/*section ends*/
+
+.mage img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mage p{
+margin-left: 200px;
+margin-top: -50px;
+color: grey;
+}
+.mage p span{
+    color: #fff;
+    font-family: inter;
+    font-weight: 700;
+    font-size: 18px;
+}
+.trusted{
+    background-color: #F6F8FB;
+    padding-top: 50px;
+    padding-bottom: 45px;
+    margin-top: 0;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+}
+.logos img{
+    height: 70px;
+    width: 100px;
+}
+.general{
+    display: inline-flex;
+}
+.general i{
+    margin-top: 30px;
+    margin-right: 40px;
+}
+.general_section p{
+    font-weight: bold;
+}
+.contact{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.rojo img{
+    width: auto;
+    height: 300px;
+    border-radius: 50%;
+}
+@media screen and (max-width:670px){
+    .rojo img {
+        display: none;
+    }
+}
+.footer{
+    background-color:#0A1558;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin-bottom:0;
+
+}
+.hold{
+    background-color:#0A1558; ;
+}

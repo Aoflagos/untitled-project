@@ -1,0 +1,53 @@
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+main{
+	height: 100vh;
+	background-image: url(img/photo-1518546305927-5a555bb7020d.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	margin-bottom: 50px;
+}
+.main_body h3{
+	font-family: monteserrat;
+	margin-top: 30vh;
+}
+.profile{
+	padding-top: 20px;
+}
+.profile h3{
+	margin-bottom: 70px;
+}
+
+.marquee-container {
+	height: 30px;
+	overflow: hidden;
+	line-height: 30px;
+  }
+  .marquee-container .marquee {
+	top: 30;
+	left: 100%;
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	animation: marquee 30s linear infinite;
+  }
+  .marquee-container .marquee2 {
+	animation-delay: 15s;
+  }
+  .marquee-container b {
+	padding-left: 10px;
+  }
+  
+  @keyframes marquee {
+	0% {
+	  left: 100%;
+	}
+	100% {
+	  left: -100%;
+	}
+  }
