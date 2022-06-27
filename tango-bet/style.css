@@ -1,0 +1,859 @@
+*{
+  font-family: roboto,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+main{
+  height: 400px;
+  margin-top: -60px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-image: url('img/path56.png');
+  background-repeat: no-repeat;
+  background-position: absolute;
+margin-bottom: 30px;
+background-size: 380px;
+}
+.sidenav{
+  height: 700px;
+}
+.sidenav li{
+  padding: 5px;
+}
+.sidenav li > a{
+  line-height: 20px;
+}
+.sidenav li a span{
+  font-size: 12px;
+  margin-top: -30px;
+}
+.divider{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.bottom_side{
+  margin-top: 40px;
+}
+.other_side{
+  margin-bottom: 10px;
+}
+.slid{
+  display: flex;
+  justify-content: space-between;
+}
+.slider .indicators .indicator-item{
+  display: none;
+}
+.slider .indicators .indicator-item.active{
+  display: none;
+}
+
+  /*dtart page*/
+  .sport_btn{
+      width: 70px;
+      height: 30px;
+      border: solid 1px #ccc;
+      background-color: transparent;
+      text-align: center;
+      color: #ccc;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+  .but_n .container{
+      display: flex;
+      justify-content: space-between;
+  }
+  .but_n a :hover{
+      color: white;
+      background-color: black;
+  }
+
+
+
+  /*tabs*/
+   /* Style the tab */
+.tab {
+    overflow: hidden;
+    /* border: 1px solid #ccc; */
+    /* background-color: #f1f1f1; */
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    /* border: 1px solid #ccc; */
+    border-top: none;
+  }
+  
+  
+  
+  /* scores slidee */
+  
+  
+      /* Styling the area of the slides */
+      #slide_show {
+      overflow: hidden;
+      height: 180px;
+      width: 728px;
+      margin: 0 auto;
+      }
+      
+      /* Style each of the sides
+      with a fixed width and height */
+      .sliding {
+      float: left;
+      border-radius: 4px;
+      margin-right: 20px;
+      padding: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      height: 150px;
+      width: 250px;
+      }
+      .sliding .teams{
+        display: flex;
+        justify-content: space-between;
+      }
+      .sliding .teams .score p{
+        margin-top: -10px;
+      }
+      .sliding .teams .kd img{
+        width: auto;
+        height: 120px;
+        margin-top: -20px;
+      }
+      .sliding .teams .vd img{
+        width: auto;
+        height: 160px;
+        margin-top: -60px;
+      }
+      .sliding .card1{
+        margin-top: 40px;
+      }
+      
+      /* Add animation to the slides */
+      .slide-wrapper {
+      
+      /* Calculate the total width on the
+      basis of number of slides */
+      width: calc(728px * 4);
+      
+      /* Specify the animation with the
+      duration and speed */
+      animation: slide 15s ease infinite;
+      }
+      
+      /* Set the background color
+      of each of the slides */
+      .sliding:nth-child(1) {
+      background: green;
+      }
+      
+      .sliding:nth-child(2) {
+      background: pink;
+      }
+      
+      .sliding:nth-child(3) {
+      background: red;
+      }
+      
+      .sliding:nth-child(4) {
+      background: yellow;
+      }
+      
+      /* Define the animation
+      for the slideshow */
+      @keyframes slide {
+      
+      /* Calculate the margin-left for
+      each of the slides */
+      20% {
+        margin-left: 0px; 
+      }
+      
+      40% {
+        margin-left: calc(-728px * 1);
+      }
+      
+      60% {
+        margin-left: calc(-728px * 2);
+      }
+      
+      80% {
+        margin-left: calc(-728px * 3);
+      }
+      }
+
+/*styling cards*/
+.cd{
+  width:100%;
+  height:180px;
+	border-radius: 14px;
+  background-color: #0b2136;
+  padding-top: 40px;
+}
+.teamer{
+	display: flex;
+	justify-content: space-between;
+}
+/*tournament cards*/
+.upcom_line{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sch_1{
+  margin-top: 20px;
+  display: flex;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.upcoming .sch_1 .boxA{
+  width: 80px;
+  height: 70px;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  /* margin-top: 20px; */
+  /* margin-bottom: 60px; */
+  /* border: solid 1px black; */
+  /* margin-left: 20px; */
+  cursor: pointer;
+}
+.upcoming .sch_1 .boxA img{
+  width: auto;
+  height: 25px;
+}
+.upcoming .sch_1 .boxB img{
+  width: auto;
+  height: 30px;
+}
+.upcoming .val{
+  margin-top: 10px;
+}
+.upcoming .sch_1 .timing{
+  width:60px;
+  height: 40px;
+  text-align: center;
+  padding-top: 7px;
+  margin-left: -110px;
+ /* margin-top: -6px;
+  width: 60px;
+  height: 35px;
+  /* padding: 30p; */
+ /* background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  /* margin-bottom: 60px; */
+  /* border: solid 1px black; */
+ /* margin-left: -120px;
+  text-align: center;*/
+}
+.upcoming .sch_1 h6 {
+  font-size: 10px;
+  margin-bottom: -8px;
+  margin-top: -2px;
+}
+.upcoming p{
+  font-size: 10px;
+}
+.upcoming .sch_1 .boxB{
+  width: 80px;
+  height: 70px;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  /* margin-top: 20px; */
+  /* margin-bottom: 60px; */
+  /* border: solid 1px black; */
+  cursor: pointer;
+  
+}
+.upcoming{
+  margin-bottom: 80px;
+}
+.retu_rn{
+  margin-left: 65px;
+}
+.tidy{
+  display: flex;
+}
+
+
+/*bottom nav*/
+
+/*botomnav*/
+.bottom_nav{
+  display: flex;
+  justify-content: center;
+  
+}
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 90%;
+  height: 60px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  display: flex;
+  overflow-x: auto;
+  border-radius: 10px;
+  background-color: #140322;
+}
+
+.nav__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  min-width: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: sans-serif;
+  font-size: 13px;
+  color: #444444;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.nav__link:hover i{
+ color: orange;
+}
+
+.nav__link--active {
+  color: orange;
+}
+
+.nav__icon {
+  font-size: 18px;
+}
+
+
+
+
+/*Games*/
+.games_body{
+  background-color: #eee;
+}
+
+.gam_es{
+  background-color: #eee;
+}
+.tab_bg{
+  background-color: #eee;
+}
+.bx_sh{
+  box-shadow: none;
+}
+
+.scorecard {
+width: 100%;
+height: 100px;
+display: flex;
+justify-content: space-between;
+padding: 5px;
+padding-bottom: 10px;
+}
+.scorecard p{
+  font-size: small;
+}
+.scorecard .btm{
+  height: 20px;
+  width: 80px;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+
+/*Accordion*/
+
+ /* Style the buttons that are used to open and close the accordion panel */
+ .accordion {
+  background-color: #fff;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: #eee;
+  display: none;
+  overflow: hidden;
+} 
+.body_games{
+  background-color: #eee;
+}
+
+
+
+/*upcoming main*/
+.upcoming_main{
+   background-image: url(img/Rectangle\ 120.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height:30em;
+   position: relative;
+   margin-bottom: 4em;
+   padding-left: 25px;
+}
+
+.upcoming_main::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+header nav .text_up{
+    font-size: 20px;
+  }
+.pick{
+  display: flex;
+  justify-content: space-between;
+}
+.selec1{
+  margin-left: 40px;
+}
+.selec2{
+  margin-right: 40px;
+}
+
+/*link tabs*/
+
+.tabs_bt{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.tabs_bt button{
+  font-size: small;
+  color: #ccc;
+}
+
+/* Change background color of buttons on hover */
+.tabs_bt button:hover {
+  color: #283593;
+  border-bottom: solid 2px #283593;
+}
+
+/* Create an active/current tablink class */
+.tabs_bt button.active {
+  color: #283593;
+  border-bottom: solid 2px #283593;
+}
+/*tab tab*/
+
+
+.half_card {
+  margin-top: 20px;
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+}
+.half_card input[type=text] {
+  padding: 6px;
+  border: solid 1px #ccc;
+  border-radius: 8px;
+  font-size: 17px;
+  width: 95%;
+}
+.small{
+  margin-top: -50px;
+}
+
+.half_half_card{
+  margin-top: 20px;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+
+.cad_wdt{
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.sco_teams{
+  display: flex;
+  justify-content: space-between;
+}
+.barcelonal{
+  border: solid 1px #ccc;
+  height: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.barcelonal p{
+margin-top: -3px;
+  
+}
+.barcelonal img{
+  width: auto;
+  height: 30px;
+  margin-left: 17px;
+}
+
+.Liverpooll{
+  border: solid 1px #ccc;
+  height: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.Liverpooll p{
+margin-top: -2px;
+
+}
+.Liverpooll img{
+  width: auto;
+  height: 35px;
+  margin-left: 15px;
+  
+}
+.sco_teams h3{
+  margin-top: -2px;
+}
+.outcome{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.option {
+  background-color: #ffffff;
+  cursor: pointer; /* add if you want */
+}
+
+/*
+  When the div with the unique id gets focus
+  due to a click the background color is applied
+*/
+#option1:focus, #option2:focus, #option3:focus {
+  background-color: #008080;
+}
+
+.selections{
+  width: 60px;
+  height: 30px;
+  border: solid 1px #ccc;
+  border-radius: 4px;
+  text-align: center;
+  padding: 4px;
+  cursor: pointer; 
+}
+.bet_placed{
+  width: 100%;
+  height: 50px;
+  border: solid 1px #ccc;
+  border-radius: 4px;
+  text-align: center;
+  padding: 4px;
+  padding-top: 15px;
+  cursor: pointer; 
+  margin-top: 40px;
+}
+.place{
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.ico{
+  margin-left: 120px;
+  width: auto;
+  height: 90px;
+}
+
+
+
+
+
+/*leaderboard*/
+.leaderboard{
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  border: solid 1px #ccc;
+  margin-top: 10px;
+  border-radius: 7px;
+  margin-bottom: 40px;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  
+}
+.leaderboard p{
+  font-size: small;
+  margin-top: -5px;
+}
+.leaderboard h5{
+  font-size: 15px;
+}
+.leaderboard span{
+  margin-left: 10px;
+}
+.leaderboard .righty{
+  margin-left: 40px;
+}
+.com{
+  background-color: #eee;
+}
+
+
+
+/*wallet*/
+.wallet{
+  background-color: #eee;
+}
+.wallet_card{
+  height: 130px;
+  width: 100%;
+  background-color: rgb(25, 4, 58);
+  border-radius: 7px;
+  box-shadow: rgba(25, 4, 58, 0.4) -5px 5px, rgba(25, 4, 58, 0.3) -10px 10px, rgba(25, 4, 58, 0.2) -15px 15px, rgba(25, 4, 58, 0.1) -20px 20px, rgba(25, 4, 58, 0.05) -25px 25px;
+  margin-bottom: 40px;
+}
+
+.transacard{
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  border-radius: 7px;
+  margin-bottom: 40px;
+  
+}
+.flx{
+  display: inline-flex;
+  justify-content: space-between;
+}
+.flx span{
+  margin-left: 10px;
+}
+
+
+
+
+/*profile*/
+
+.profile_main{
+  height: 40vh;
+  
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #eee;
+  background-repeat: no-repeat;
+  background-position: absolute;
+  margin-bottom: 30px;
+}
+.avatar {
+  padding-top:  100px;
+  margin-left: 160px;
+}
+.avatar a img{
+  margin-bottom: 20px;
+  margin-right: -70px;
+}
+ #Paris .con_t{
+   width: 100%;
+   height: 50px;
+   border-radius: 7px;
+   background-color: white;
+   padding: 5px;
+   font-size: small;
+   margin-top: -10px;
+ }
+ #Paris .con_t img{
+   width: auto;
+   height: 40px;
+   margin-right: 5px;
+ }
+ #Paris .con_t p{
+   font-size: 10px;
+   margin-top: -37px;
+   margin-left: 55px;
+ }
+.con_box{
+  margin-top: -30px;
+  margin-bottom: 22px;
+}
+#Paris .in_b{
+  margin-top: -650px;
+}
+.bet_box{
+  width: 100%;
+  height: 75px;
+  border-radius: 7px;
+  background-color: #fff;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+.bet_scores{
+  display: flex;
+  justify-content: space-between;
+}
+.banking{
+  width: 100%;
+  height: 75px;
+  border-radius: 7px;
+  background-color: #fff;
+  padding: 8px;
+  margin-top: 50px;
+}
+
+
+
+/*testing*/
+
+.buttin {
+  background-color: #099;
+  color: white;
+  text-decoration: none;
+  border-radius: 60px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  overflow:hidden;
+  width: auto;
+  max-width: 32px; /** I'm animating max-width because width needs to be auto, and auto can't be animated **/
+  -webkit-transition: max-width 0.5s;
+  transition: max-width 0.5s;
+}
+
+.buttin:hover {
+  max-width: 300px;
+}
+
+.iconn {
+  font-family: "Font Awesome 5 Free";
+  font-size: 16px;
+  margin-right: 15px;
+  padding: 0px 8px;
+  display: flex;
+  align-items: center;
+}
+
+.texter {
+  white-space: nowrap;
+  padding-right: 15px;
+}
+.oz{
+  height: 60px;
+ margin-bottom: -20px;
+}
+
+/*LIve*/
+.live_main{
+   background-image:url(img/live.png);
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:30em;
+  position: relative;
+  margin-bottom: 4em;
+  padding-left: 25px;
+  
+}
+.ch_card{
+  border-radius: 7px;
+}
+.chat_input input[type=text] {
+  padding: 6px;
+  border: solid 1px #ccc;
+  border-radius: 8px;
+  font-size: 17px;
+  width: 95%;
+  background-color: #fff;
+  
+}
+.chat_input i{
+  margin-bottom: -60px;
+  z-index: 2;
+}
+
+
+
+
+.live_main::before{
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ z-index: 0;
+}
+
+.tabs .tab a{
+  color: black;
+  font-size: 14px;
+}
+
+
+
+@media only screen and (max-width:480px){
+  .main__img img{
+    height 300px;
+  }
+}
+@media only screen and (max-width:600px) {
+  .tabs .tab a{
+   font-size: 10px;
+  }
+  
+}
+
+
+
+

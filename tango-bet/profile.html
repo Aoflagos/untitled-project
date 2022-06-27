@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js">
+	</script>
+
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!--swifty slider-->
+	<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
+		defer></script>
+	<link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.0/dist/css/swiffy-slider.min.css" rel="stylesheet"
+		crossorigin="anonymous">
+
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<link rel="stylesheet" href="style.css">
+	</script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+
+	<title>profile</title>
+</head>
+
+<body onload="document.getElementById('defaultOpen').click();" class="grey lighten-4">
+	<nav class="grey lighten-4">
+		<div class="nav-wrapper ">
+			<a href="#" class="brand-logo center black-text" style="font-size: 30px;">Profile</a>
+			<ul id="nav-mobile">
+				<li><a href="#" data-target="slide-out" class="sidenav-trigger black-text"><i
+							class="material-icons">menu</i></a></li>
+				<li class="right"><a href="profile.html"><i
+							class="large material-icons right black-text">account_circle</i></a></li>
+							<li><a href="index.html"> <i class="large material-icons left black-text">chevron_left</i></a></li>
+			</ul>
+		</div>
+	</nav>
+	<ul id="slide-out" class="sidenav">
+
+		<li><a href="#!">Today's Selection</a></li>
+		<li><a href="#!">Todays Football <br> <span class="grey-text lighten-1">All Leagues</span></a></li>
+		<li>
+			<div class="divider"></div>
+		</li>
+		<li><a href="#!">England <br> <span class="grey-text lighten-1">All Leagues</span></a></li>
+		<li>
+			<div class="divider"></div>
+		</li>
+		<li><a href="#!">Spanish <br> <span class="grey-text lighten-1">All Leagues</span></a></li>
+		<li>
+			<div class="divider"></div>
+		</li>
+		<li><a href="#!">Champions League <br> <span class="grey-text lighten-1">All Leagues</span></a></li>
+		<li>
+			<div class="divider"></div>
+		</li>
+		<li><a href="#!">Horse Racing <br> <span class="grey-text lighten-1">All Leagues</span></a></li>
+		<li>
+			<div class="divider"></div>
+		</li>
+		<li><a href="#!">Tennis<br> <span class="grey-text lighten-1">All Leagues</span></a></li>
+		<li>
+			<div class="divider"></div>
+		</li>
+		<li><a href="#!">Car Racing <br> <span class="grey-text lighten-1">All Leagues</span></a></li>
+		<li>
+			<div class="divider"></div>
+		</li>
+		<li><a href="index.html" class="bottom_side other_side">Home</a></li>
+		<li><a href="settings.html" class=" other_side">Settings</a></li>
+		<li><a href="notification.html" class=" other_side">Notification</a></li>
+		<li><a href="Login page/index.html" class=" other_side">Logout</a></li>
+
+	</ul>
+
+	<nav class="grey lighten-4">
+		<div class="nav-wrapper ">
+			<a href="#" class="brand-logo center black-text " "><img src="img/Photo.png" alt="" class="responsive-img" style="height: 90px;width: auto;margin-top: 40px;"></a>
+			
+		</div>
+	</nav>
+
+
+	<div class="profile_main grey lighten-4 nav-wrapper">
+		
+		<!--tab start-->
+
+		<div class="container ">
+			<div class="row ">
+				<div class="col s12" style="margin-bottom: 10px;margin-top: 100px;">
+					<ul class="tabs">
+						<li class="tab col s4"><a href="#test1" class="black-text grey lighten-4">Personal Info</a></li>
+						<li class="tab col s4"><a class="active black-text" href="#test2">Friends</a></li>
+						<li class="tab col s4  right"><a href="#test3" class="black-text grey lighten-4">Bet History</a>
+						</li>
+					</ul>
+				</div>
+				<div id="test1" class="col s12 grey lighten-4">
+					<div class="container  white">
+						<div class="chat_input white col s12 m6 l6 ">
+							<p>Full Name</p>
+							<input type="text" placeholder="Enter phone number..." class="transparent potus">
+						</div>
+						<div class="chat_input white col s12 m6 l6 potus">
+							<p>Username</p>
+							<input type="text" placeholder="Enter phone number..." class="transparent">
+						</div>
+						<div class="chat_input white col s12 m6 l6 potus">
+							<p>Email</p>
+							<input type="text" placeholder="Enter phone number..." class="transparent">
+						</div>
+						<div class="chat_input white col s12 m6 l6 potus">
+							<p> Phone number</p>
+							<input type="text" placeholder="Enter phone number..." class="transparent">
+						</div>
+						<a class="waves-effect waves-light btn place" style="background-color:  #140322;" href="#">Edit
+							your profile</a>
+					</div>
+				</div>
+				<div id="test2" class="col s12 grey lighten-4">
+					<div class="container">
+						<p class="right"><a href="#Add_modal" class="modal-trigger">+Add Friends</a></p>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 l6 offset-l3">
+								<p>A</p>
+								<div class="card-panel grey lighten-5 z-depth-1 oz">
+									<div class="row valign-wrapper">
+										<div class="col s2">
+											<img src="img/Photo.png" alt="" class="circle responsive-img">
+											<!-- notice the "circle" class -->
+										</div>
+										<div class="col s10" style="margin-top: -10px;">
+											<span class="black-text">
+												Johnny English <br>@JohnnyE
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 l6 offset-l3">
+								<p>B</p>
+								<div class="card-panel grey lighten-5 z-depth-1 oz">
+									<div class="row valign-wrapper">
+										<div class="col s2">
+											<img src="img/Photo.png" alt="" class="circle responsive-img">
+											<!-- notice the "circle" class -->
+										</div>
+										<div class="col s10" style="margin-top: -10px;">
+											<span class="black-text">
+												Johnny English <br>@JohnnyE
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 l6 offset-l3">
+								<p>C</p>
+								<div class="card-panel grey lighten-5 z-depth-1 oz">
+									<div class="row valign-wrapper">
+										<div class="col s2">
+											<img src="img/Photo.png" alt="" class="circle responsive-img">
+											<!-- notice the "circle" class -->
+										</div>
+										<div class="col s10" style="margin-top: -10px;">
+											<span class="black-text">
+												Johnny English <br>@JohnnyE
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 l6 offset-l3">
+								<p>D</p>
+								<div class="card-panel grey lighten-5 z-depth-1 oz">
+									<div class="row valign-wrapper">
+										<div class="col s2">
+											<img src="img/Photo.png" alt="" class="circle responsive-img">
+											<!-- notice the "circle" class -->
+										</div>
+										<div class="col s10" style="margin-top: -10px;">
+											<span class="black-text">
+												Johnny English <br>@JohnnyE
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 l6 offset-l3">
+								<p>E</p>
+								<div class="card-panel grey lighten-5 z-depth-1 oz">
+									<div class="row valign-wrapper">
+										<div class="col s2">
+											<img src="img/Photo.png" alt="" class="circle responsive-img">
+											<!-- notice the "circle" class -->
+										</div>
+										<div class="col s10" style="margin-top: -10px;">
+											<span class="black-text">
+												Johnny English <br>@JohnnyE
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 l6 offset-l3">
+								<p>F</p>
+								<div class="card-panel grey lighten-5 z-depth-1 oz">
+									<div class="row valign-wrapper">
+										<div class="col s2">
+											<img src="img/Photo.png" alt="" class="circle responsive-img">
+											<!-- notice the "circle" class -->
+										</div>
+										<div class="col s10" style="margin-top: -10px;">
+											<span class="black-text">
+												Johnny English <br>@JohnnyE
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 l6 offset-l3">
+								<p>G</p>
+								<div class="card-panel grey lighten-5 z-depth-1 oz">
+									<div class="row valign-wrapper">
+										<div class="col s2">
+											<img src="img/Photo.png" alt="" class="circle responsive-img">
+											<!-- notice the "circle" class -->
+										</div>
+										<div class="col s10" style="margin-top: -10px;">
+											<span class="black-text">
+												Johnny English <br>@JohnnyE
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 l6 offset-l3">
+								<p>H</p>
+								<div class="card-panel grey lighten-5 z-depth-1 oz">
+									<div class="row valign-wrapper">
+										<div class="col s2">
+											<img src="img/Photo.png" alt="" class="circle responsive-img">
+											<!-- notice the "circle" class -->
+										</div>
+										<div class="col s10" style="margin-top: -10px;">
+											<span class="black-text">
+												Johnny English <br>@JohnnyE
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 l6 offset-l3">
+								<p>I</p>
+								<div class="card-panel grey lighten-5 z-depth-1 oz">
+									<div class="row valign-wrapper">
+										<div class="col s2">
+											<img src="img/Photo.png" alt="" class="circle responsive-img">
+											<!-- notice the "circle" class -->
+										</div>
+										<div class="col s10" style="margin-top: -10px;">
+											<span class="black-text">
+												Johnny English <br>@JohnnyE
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 l6 offset-l3">
+								<p>J</p>
+								<div class="card-panel grey lighten-5 z-depth-1 oz">
+									<div class="row valign-wrapper">
+										<div class="col s2">
+											<img src="img/Photo.png" alt="" class="circle responsive-img">
+											<!-- notice the "circle" class -->
+										</div>
+										<div class="col s10" style="margin-top: -10px;">
+											<span class="black-text">
+												Johnny English <br>@JohnnyE
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 l6 offset-l3">
+								<p>K</p>
+								<div class="card-panel grey lighten-5 z-depth-1 oz">
+									<div class="row valign-wrapper">
+										<div class="col s2">
+											<img src="img/Photo.png" alt="" class="circle responsive-img">
+											<!-- notice the "circle" class -->
+										</div>
+										<div class="col s10" style="margin-top: -10px;">
+											<span class="black-text">
+												Johnny English <br>@JohnnyE
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 l6 offset-l3">
+								<p>L</p>
+								<div class="card-panel grey lighten-5 z-depth-1 oz">
+									<div class="row valign-wrapper">
+										<div class="col s2">
+											<img src="img/Photo.png" alt="" class="circle responsive-img">
+											<!-- notice the "circle" class -->
+										</div>
+										<div class="col s10" style="margin-top: -10px;">
+											<span class="black-text">
+												Johnny English <br>@JohnnyE
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 l6 offset-l3">
+								<p>M</p>
+								<div class="card-panel grey lighten-5 z-depth-1 oz">
+									<div class="row valign-wrapper">
+										<div class="col s2">
+											<img src="img/Photo.png" alt="" class="circle responsive-img">
+											<!-- notice the "circle" class -->
+										</div>
+										<div class="col s10" style="margin-top: -10px;">
+											<span class="black-text">
+												Johnny English <br>@JohnnyE
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 l6 offset-l3">
+								<p>N</p>
+								<div class="card-panel white lighten-5 z-depth-1 oz">
+									<div class="row valign-wrapper">
+										<div class="col s2">
+											<img src="img/Photo.png" alt="" class="circle responsive-img">
+											<!-- notice the "circle" class -->
+										</div>
+										<div class="col s10" style="margin-top: -10px;">
+											<span class="black-text">
+												Johnny English <br>@JohnnyE
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 l6 offset-l3">
+								<p>O</p>
+								<div class="card-panel white lighten-5 z-depth-1 oz">
+									<div class="row valign-wrapper">
+										<div class="col s2">
+											<img src="img/Photo.png" alt="" class="circle responsive-img">
+											<!-- notice the "circle" class -->
+										</div>
+										<div class="col s10" style="margin-top: -10px;">
+											<span class="black-text">
+												Johnny English <br>@JohnnyE
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 l6 offset-l3">
+								<p>P</p>
+								<div class="card-panel white lighten-5 z-depth-1 oz">
+									<div class="row valign-wrapper">
+										<div class="col s2">
+											<img src="img/Photo.png" alt="" class="circle responsive-img">
+											<!-- notice the "circle" class -->
+										</div>
+										<div class="col s10" style="margin-top: -10px;">
+											<span class="black-text">
+												Johnny English <br>@JohnnyE
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 l6 offset-l3">
+								<p>Q</p>
+								<div class="card-panel white lighten-5 z-depth-1 oz">
+									<div class="row valign-wrapper">
+										<div class="col s2">
+											<img src="img/Photo.png" alt="" class="circle responsive-img">
+											<!-- notice the "circle" class -->
+										</div>
+										<div class="col s10" style="margin-top: -10px;">
+											<span class="black-text">
+												Johnny English <br>@JohnnyE
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 l6 offset-l3">
+								<p>R</p>
+								<div class="card-panel white lighten-5 z-depth-1 oz">
+									<div class="row valign-wrapper">
+										<div class="col s2">
+											<img src="img/Photo.png" alt="" class="circle responsive-img">
+											<!-- notice the "circle" class -->
+										</div>
+										<div class="col s10" style="margin-top: -10px;">
+											<span class="black-text">
+												Johnny English <br>@JohnnyE
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 l6 offset-l3">
+								<p>S</p>
+								<div class="card-panel white lighten-5 z-depth-1 oz">
+									<div class="row valign-wrapper">
+										<div class="col s2">
+											<img src="img/Photo.png" alt="" class="circle responsive-img">
+											<!-- notice the "circle" class -->
+										</div>
+										<div class="col s10" style="margin-top: -10px;">
+											<span class="black-text">
+												Johnny English <br>@JohnnyE
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 l6 offset-l3">
+								<p>T</p>
+								<div class="card-panel whitelighten-5 z-depth-1 oz">
+									<div class="row valign-wrapper">
+										<div class="col s2">
+											<img src="img/Photo.png" alt="" class="circle responsive-img">
+											<!-- notice the "circle" class -->
+										</div>
+										<div class="col s10" style="margin-top: -10px;">
+											<span class="black-text">
+												Johnny English <br>@JohnnyE
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 l6 offset-l3">
+								<p>U</p>
+								<div class="card-panel grey lighten-5 z-depth-1 oz">
+									<div class="row valign-wrapper">
+										<div class="col s2">
+											<img src="img/Photo.png" alt="" class="circle responsive-img">
+											<!-- notice the "circle" class -->
+										</div>
+										<div class="col s10" style="margin-top: -10px;">
+											<span class="black-text">
+												Johnny English <br>@JohnnyE
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 l6 offset-l3">
+								<p>V</p>
+								<div class="card-panel white lighten-5 z-depth-1 oz">
+									<div class="row valign-wrapper">
+										<div class="col s2">
+											<img src="img/Photo.png" alt="" class="circle responsive-img">
+											<!-- notice the "circle" class -->
+										</div>
+										<div class="col s10" style="margin-top: -10px;">
+											<span class="black-text">
+												Johnny English <br>@JohnnyE
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 l6 offset-l3">
+								<p>W</p>
+								<div class="card-panel white lighten-5 z-depth-1 oz">
+									<div class="row valign-wrapper">
+										<div class="col s2">
+											<img src="img/Photo.png" alt="" class="circle responsive-img">
+											<!-- notice the "circle" class -->
+										</div>
+										<div class="col s10" style="margin-top: -10px;">
+											<span class="black-text">
+												Johnny English <br>@JohnnyE
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 l6 offset-l3">
+								<p>X</p>
+								<div class="card-panel white lighten-5 z-depth-1 oz">
+									<div class="row valign-wrapper">
+										<div class="col s2">
+											<img src="img/Photo.png" alt="" class="circle responsive-img">
+											<!-- notice the "circle" class -->
+										</div>
+										<div class="col s10" style="margin-top: -10px;">
+											<span class="black-text">
+												Johnny English <br>@JohnnyE
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 l6 offset-l3">
+								<p>Y</p>
+								<div class="card-panel white lighten-5 z-depth-1 oz">
+									<div class="row valign-wrapper">
+										<div class="col s2">
+											<img src="img/Photo.png" alt="" class="circle responsive-img">
+											<!-- notice the "circle" class -->
+										</div>
+										<div class="col s10" style="margin-top: -10px;">
+											<span class="black-text">
+												Johnny English <br>@JohnnyE
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+				<div id="test3" class="col s12 grey lighten-4">
+					<div class="container">
+						<div class="bet_box col s12 container">
+							<div class="bet_scores">
+								<p>Man United VS Arsenal <br><span class="grey-text lighten-3">29/1/2022</span></p>
+								<p class="grey-text lighten-3">Lose <br><span class="red-text lighten-1">
+										N3900.00</span></p>
+							</div>
+						</div>
+
+						<div class="bet_box col s12 container">
+							<div class="bet_scores">
+								<p>Man United VS Arsenal <br><span class="grey-text lighten-3">29/1/2022</span></p>
+								<p class="grey-text lighten-3">Lose <br><span class="red-text lighten-1">
+										N3900.00</span></p>
+							</div>
+						</div>
+						<div class="bet_box col s12 container">
+							<div class="bet_scores">
+								<p>Man United VS Arsenal <br><span class="grey-text lighten-3">29/1/2022</span></p>
+								<p class="grey-text lighten-3">Win <br><span class="green-text lighten-1">
+										N3900.00</span></p>
+							</div>
+						</div>
+						<div class="bet_box col s12 container">
+							<div class="bet_scores">
+								<p>Man United VS Arsenal <br><span class="grey-text lighten-3">29/1/2022</span></p>
+								<p class="grey-text lighten-3">Lose <br><span class="red-text lighten-1">
+										N3900.00</span></p>
+							</div>
+						</div>
+						<div class="bet_box col s12 container">
+							<div class="bet_scores">
+								<p>Man United VS Arsenal <br><span class="grey-text lighten-3">29/1/2022</span></p>
+								<p class="grey-text lighten-3">Lose <br><span class="red-text lighten-1">
+										N3900.00</span></p>
+							</div>
+						</div>
+						<div class="bet_box col s12 container">
+							<div class="bet_scores">
+								<p>Man United VS Arsenal <br><span class="grey-text lighten-3">29/1/2022</span></p>
+								<p class="grey-text lighten-3">Win <br><span class="green-text lighten-1">
+										N3900.00</span></p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		
+
+		<div class="games_body">
+			<div class="container row">
+				<div id="London" class="tabcontent white col s12 m6 l6">
+
+					<div class="chat_input ">
+						<p>Full Name</p>
+						<input type="text" placeholder="Enter phone number..." class="transparent">
+
+					</div>
+					<div class="chat_input">
+						<p>Username</p>
+						<input type="text" placeholder="Enter phone number..." class="transparent">
+
+					</div>
+					<div class="chat_input">
+						<p>Email</p>
+						<input type="text" placeholder="Enter phone number..." class="transparent">
+
+					</div>
+					<div class="chat_input">
+						<p> Phone number</p>
+						<input type="text" placeholder="Enter phone number..." class="transparent">
+
+					</div>
+					<a class="waves-effect waves-light btn place deep-purple accent-4" href="#">Edit your profile</a>
+				</div>
+
+				<div id="Paris" class="tabcontent ">
+					<p class="right"><a href="#Add_modal" class="modal-trigger">+Add Friends</a></p>
+					<div class="row">
+						<div class="col s10 con_box">
+							<p>A</p>
+							<div class="con_t z-depth-2"><img src="img/Photo.png" alt="">
+								<p> johnny English <br>@johnnyE</p>
+							</div>
+						</div>
+						<div class="col s10 con_box">
+							<p>B</p>
+							<div class="con_t z-depth-2"><img src="img/Photo.png" alt="">
+								<p> johnny English <br>@johnnyE</p>
+							</div>
+						</div>
+						<div class="col s10 con_box">
+							<p>C</p>
+							<div class="con_t z-depth-2"><img src="img/Photo.png" alt="">
+								<p> johnny English <br>@johnnyE</p>
+							</div>
+						</div>
+						<div class="col s10 con_box">
+							<p>D</p>
+							<div class="con_t z-depth-2"><img src="img/Photo.png" alt="">
+								<p> johnny English <br>@johnnyE</p>
+							</div>
+						</div>
+						<div class="col s10 con_box">
+							<p>E</p>
+							<div class="con_t z-depth-2"><img src="img/Photo.png" alt="">
+								<p> johnny English <br>@johnnyE</p>
+							</div>
+						</div>
+						<div class="col s10 con_box">
+							<p>F</p>
+							<div class="con_t z-depth-2"><img src="img/Photo.png" alt="">
+								<p> johnny English <br>@johnnyE</p>
+							</div>
+						</div>
+						<div class="col s10 con_box">
+							<p>G</p>
+							<div class="con_t z-depth-2"><img src="img/Photo.png" alt="">
+								<p> johnny English <br>@johnnyE</p>
+							</div>
+						</div>
+						<div class="col s10 con_box">
+							<p>H</p>
+							<div class="con_t z-depth-2"><img src="img/Photo.png" alt="">
+								<p> johnny English <br>@johnnyE</p>
+							</div>
+						</div>
+						<div class="col s10 con_box">
+							<p>I</p>
+							<div class="con_t z-depth-2"><img src="img/Photo.png" alt="">
+								<p> johnny English <br>@johnnyE</p>
+							</div>
+						</div>
+
+						<div class="col s2 in_b right">
+							<span>A</span> <br>
+							<span>B</span> <br>
+							<span>C</span> <br>
+							<span>D</span> <br>
+							<span>E</span> <br>
+							<span>F</span> <br>
+							<span>G</span> <br>
+							<span>H</span> <br>
+							<span>I</span> <br>
+							<span>J</span> <br>
+							<span>I</span> <br>
+							<span>J</span> <br>
+							<span>K</span> <br>
+							<span>L</span> <br>
+							<span>M</span> <br>
+							<span>N</span> <br>
+							<span>O</span> <br>
+							<span>P</span> <br>
+							<span>Q</span> <br>
+							<span>R</span> <br>
+							<span>S</span> <br>
+							<span>T</span> <br>
+							<span>U</span> <br>
+							<span>V</span> <br>
+							<span>W</span> <br>
+							<span>X</span> <br>
+							<span>Y</span> <br>
+							<span>Z</span> <br>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="Tokyo" class="tabcontent">
+
+				<div class="bet_box">
+					<div class="bet_scores">
+						<p>Man United VS Arsenal <br><span class="grey-text lighten-3">29/1/2022</span></p>
+						<p class="grey-text lighten-3">Lose <br><span class="red-text lighten-1"> N3900.00</span></p>
+					</div>
+				</div>
+
+
+				<div class="bet_box">
+					<div class="bet_scores">
+						<p>Man United VS Arsenal <br><span class="grey-text lighten-3">29/1/2022</span></p>
+						<p class="grey-text lighten-3">Lose <br><span class="red-text lighten-1"> N3900.00</span></p>
+					</div>
+				</div>
+
+				<div class="bet_box">
+					<div class="bet_scores">
+						<p>Man United VS Arsenal <br><span class="grey-text lighten-3">29/1/2022</span></p>
+						<p class="grey-text lighten-3">Lose <br><span class="red-text lighten-1"> N3900.00</span></p>
+					</div>
+				</div>
+
+				<div class="bet_box">
+					<div class="bet_scores">
+						<p>Man United VS Arsenal <br><span class="grey-text lighten-3">29/1/2022</span></p>
+						<p class="grey-text lighten-3">Win <br><span class="green-text lighten-1"> N40,100.00</span></p>
+					</div>
+				</div>
+
+				<div class="bet_box">
+					<div class="bet_scores">
+						<p>Man United VS Arsenal <br><span class="grey-text lighten-3">29/1/2022</span></p>
+						<p class="grey-text lighten-3">Win <br><span class="green-text lighten-1"> N3900.00</span></p>
+					</div>
+				</div>
+
+				<div class="bet_box">
+					<div class="bet_scores">
+						<p>Man United VS Arsenal <br><span class="grey-text lighten-3">29/1/2022</span></p>
+						<p class="grey-text lighten-3">Lose <br><span class="red-text lighten-1"> N3900.00</span></p>
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+	</div>
+
+
+
+	<!--modal-->
+
+
+
+
+	 
+
+	 <!-- Modal Structure -->
+	 <div id="Add_modal" class="modal">
+	   <div class="modal-content">
+		<p>Username</p>
+		<div class="chat_input">
+
+			<input type="text" placeholder="Enter @ username" class="transparent">
+
+		</div>
+	   </div>
+	   <div class="modal-footer">
+		<a href="#!" class=" modal-action 
+		modal-close waves-effect
+		waves-green btn deep-purple accent-4">
+			Add
+		</a>
+	   </div>
+	 </div>
+
+
+	
+
+
+
+		<!--modal ends-->
+
+		
+
+
+		<script>
+			//sidenav//
+			$(document).ready(function () {
+				$('.sidenav').sidenav();
+			});
+			//sideNav ends//
+
+
+			//tabs//
+			function openCity(evt, cityName) {
+				var i, tabcontent, tablinks;
+				tabcontent = document.getElementsByClassName("tabcontent");
+				for (i = 0; i < tabcontent.length; i++) {
+					tabcontent[i].style.display = "none";
+				}
+				tablinks = document.getElementsByClassName("tablinks");
+				for (i = 0; i < tablinks.length; i++) {
+					tablinks[i].className = tablinks[i].className.replace(" active", "");
+				}
+				document.getElementById(cityName).style.display = "block";
+				evt.currentTarget.className += " active";
+			}
+			//tab ends//
+
+
+			//modals//
+			$(document).ready(function () {
+				$('.modal').modal();
+			})
+
+			//modal end/
+
+
+		</script>
+</body>
+
+</html>

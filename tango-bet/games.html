@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!--swifty slider-->
+	<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
+		defer></script>
+	<link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.0/dist/css/swiffy-slider.min.css" rel="stylesheet"
+		crossorigin="anonymous">
+
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<link rel="stylesheet" href="style.css">
+	</script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+	<title>Games</title>
+
+</head>
+
+<body onload="document.getElementById('defaultOpen').click();" class="body_games grey lighten-4">
+
+	<!--header starts-->
+	<header>
+		<nav class="grey lighten-4">
+			<div class="nav-wrapper ">
+				<a href="#" class="brand-logo center black-text" style="font-size: 30px;">Games</a>
+				<ul id="nav-mobile">
+					<li><a href="#" data-target="slide-out" class="sidenav-trigger black-text"><i
+								class="material-icons">menu</i></a></li>
+					<li class="right"><a href="profile.html"><i
+								class="large material-icons right black-text">account_circle</i></a></li>
+					<li class="hide-on-med-and-down"><a href="index.html"> <i
+								class="large material-icons left black-text ">chevron_left</i></a></li>
+				</ul>
+			</div>
+		</nav>
+
+
+
+		<ul id="slide-out" class="sidenav">
+
+			<li><a href="#!">Today's Selection</a></li>
+			<li><a href="#!">Todays Football <br> <span class="grey-text lighten-1">All Leagues</span></a></li>
+			<li>
+				<div class="divider"></div>
+			</li>
+			<li><a href="#!">England <br> <span class="grey-text lighten-1">All Leagues</span></a></li>
+			<li>
+				<div class="divider"></div>
+			</li>
+			<li><a href="#!">Spanish <br> <span class="grey-text lighten-1">All Leagues</span></a></li>
+			<li>
+				<div class="divider"></div>
+			</li>
+			<li><a href="#!">Champions League <br> <span class="grey-text lighten-1">All Leagues</span></a></li>
+			<li>
+				<div class="divider"></div>
+			</li>
+			<li><a href="#!">Horse Racing <br> <span class="grey-text lighten-1">All Leagues</span></a></li>
+			<li>
+				<div class="divider"></div>
+			</li>
+			<li><a href="#!">Tennis<br> <span class="grey-text lighten-1">All Leagues</span></a></li>
+			<li>
+				<div class="divider"></div>
+			</li>
+			<li><a href="#!">Car Racing <br> <span class="grey-text lighten-1">All Leagues</span></a></li>
+			<li>
+				<div class="divider"></div>
+			</li>
+			<li><a href="index.html" class="bottom_side other_side">Home</a></li>
+			<li><a href="settings.html" class=" other_side">Settings</a></li>
+			<li><a href="notification.html" class=" other_side">Notification</a></li>
+			<li><a href="Login page/index.html" class=" other_side">Logout</a></li>
+
+		</ul>
+	</header>
+
+	<div class="container grey lighten-4" style="margin-top: 10px;">
+		<div class="row">
+			<div class="col s12">
+				<ul class="tabs">
+					<li class="tab col s4"><a href="#test1" class="black-text">Upcoming</a></li>
+					<li class="tab col s4"><a class="active black-text" href="#test2">Live Games</a></li>
+					<li class="tab col s4"><a href="#test3" class="black-text">Highlights</a></li>
+				</ul>
+			</div>
+			<div id="test1" class="col s12 grey lighten-4">
+				<ul class="collapsible">
+					<li>
+						<div class="collapsible-header"><i class="material-icons">filter_drama</i>Serie A</div>
+						<div class="collapsible-body grey lighten-4"
+							style="border-radius: 10px; padding: 5px; margin-top: 15px; "><span>
+								<div class="container">
+									<ul class="row" style="height: 20px; ">
+
+										<div class="container">
+											<li class="col s4 m4 l4"><img src="img/barce.png" alt=""
+													class="responsive-img" style="width: auto; height: 40px;"></li>
+										</div>
+										<div class="container">
+											<li class="col s4 m4 l4">
+												<div class="sc_ore center">
+													<h6 style="font-weight: bolder;">3 : 1</h6>
+													<p class="center grey-text lighthen-1" style="font-size: 10px;"><a
+															class="grey-text lighten-1" href="highlite.html"> 22
+															jan 2022</a></p>
+
+												</div>
+											</li>
+										</div>
+										<div class="container">
+											<li class="col s4 m4 l4"><img src="img/Liverpool.png" alt=""
+													class="responsive-img right"
+													style="width: auto; height: 50px; margin-top: -8px;">
+											</li>
+										</div>
+									</ul>
+								</div>
+							</span>
+						</div>
+						<div class="collapsible-body grey lighten-4"
+							style="border-radius: 10px; padding: 5px; margin-top: 15px;"><span>
+								<div class="container">
+									<ul class="row" style="height: 20px;">
+
+										<div class="container">
+											<li class="col s4 m4 l4"><img src="img/barce.png" alt=""
+													class="responsive-img" style="width: auto; height: 40px;"></li>
+										</div>
+										<div class="container">
+											<li class="col s4 m4 l4">
+												<div class="sc_ore center">
+													<h6 style="font-weight: bolder;">3 : 1</h6>
+													<p class="center grey-text lighthen-1" style="font-size: 10px;"><a
+															class="grey-text lighten-1" href="highlite.html"> 22
+															jan 2022</a></p>
+
+												</div>
+											</li>
+										</div>
+										<div class="container">
+											<li class="col s4 m4 l4"><img src="img/Liverpool.png" alt=""
+													class="responsive-img right"
+													style="width: auto; height: 50px; margin-top: -8px;">
+											</li>
+										</div>
+									</ul>
+								</div>
+							</span>
+						</div>
+					</li>
+					<li>
+						<div class="collapsible-header"><i class="material-icons">place</i>Spanish LaLiga</div>
+						<div class="collapsible-body grey lighten-4"
+							style="border-radius: 10px; padding: 5px; margin-top: 15px;">
+							<span>
+								<div class="container">
+									<ul class="row" style="height: 20px; ">
+
+										<div class="container">
+											<li class="col s4 m4 l4"><img src="img/barce.png" alt=""
+													class="responsive-img" style="width: auto; height: 40px;"></li>
+										</div>
+										<div class="container">
+											<li class="col s4 m4 l4">
+												<div class="sc_ore center">
+													<h6 style="font-weight: bolder;">3 : 1</h6>
+													<p class="center grey-text lighthen-1" style="font-size: 10px;"><a
+															class="grey-text lighten-1" href="highlite.html"> 22
+															jan 2022</a></p>
+
+												</div>
+											</li>
+										</div>
+										<div class="container">
+											<li class="col s4 m4 l4"><img src="img/Liverpool.png" alt=""
+													class="responsive-img right"
+													style="width: auto;  height: 50px; margin-top: -8px;"">
+											</li>
+										</div>
+									</ul>
+								</div>
+							</span></div>
+							<div class=" collapsible-body grey lighten-4" style="border-radius: 10px; padding: 5px; margin-top: 15px;">
+												<span>
+													<div class="container">
+														<ul class="row" style="height: 20px; ">
+
+															<div class="container">
+																<li class="col s4 m4 l4"><img src="img/barce.png" alt=""
+																		class="responsive-img"
+																		style="width: auto; height: 40px;"></li>
+															</div>
+															<div class="container">
+																<li class="col s4 m4 l4">
+																	<div class="sc_ore center">
+																		<h6 style="font-weight: bolder;">3 : 1</h6>
+																		<p class="center grey-text lighthen-1"
+																			style="font-size: 10px;"><a
+																				class="grey-text lighten-1"
+																				href="highlite.html"> 22
+																				jan 2022</a></p>
+
+																	</div>
+																</li>
+															</div>
+															<div class="container">
+																<li class="col s4 m4 l4"><img src="img/Liverpool.png"
+																		alt="" class="responsive-img right"
+																		style="width: auto;  height: 50px; margin-top: -8px;"">
+												</li>
+											</div>
+										</ul>
+									</div>
+								</span></div>
+					</li>
+					<li class=" active">
+																	<div class="collapsible-header"><i
+																			class="material-icons">whatshot</i>Premier
+																		League</div>
+																	<div class="collapsible-body grey lighten-4"
+																		style="border-radius: 10px; padding: 15px;">
+																		<span>
+																			<div class="container">
+																				<ul class="row" style="height: 35px; ">
+
+																					<div class="container">
+																						<li class="col s4 m4 l4"><img
+																								src="img/barce.png"
+																								alt=""
+																								class="responsive-img"
+																								style="width: auto; height: 40px;">
+																						</li>
+																					</div>
+																					<div class="container">
+																						<li class="col s4 m4 l4">
+																							<div class="sc_ore center">
+																								<h6
+																									style="font-weight: bolder;">
+																									3 : 1</h6>
+																								<p class="center grey-text lighthen-1"
+																									style="font-size: 10px;">
+																									<a class="grey-text lighten-1"
+																										href="highlite.html">
+																										22
+																										jan 2022</a></p>
+
+																							</div>
+																						</li>
+																					</div>
+																					<div class="container">
+																						<li class="col s4 m4 l4"><img
+																								src="img/Liverpool.png"
+																								alt=""
+																								class="responsive-img right"
+																								style="width: auto;  height: 50px; margin-top: -8px;"">
+											</li>
+										</div>
+									</ul>
+								</div>
+							</span></div>
+							<div class="collapsible-body grey lighten-4" style="border-radius: 10px; padding: 5px; margin-top: 15px;">
+																							<span>
+																								<div class="container"
+																									style="padding-bottom: 20px;">
+																									<ul class="row"
+																										style="height: 20px; ">
+
+																										<div
+																											class="container">
+																											<li
+																												class="col s4 m4 l4">
+																												<img src="img/barce.png"
+																													alt=""
+																													class="responsive-img"
+																													style="width: auto; height: 40px;">
+																											</li>
+																										</div>
+																										<div
+																											class="container">
+																											<li
+																												class="col s4 m4 l4">
+																												<div
+																													class="sc_ore center">
+																													<h6
+																														style="font-weight: bolder;">
+																														3
+																														:
+																														1
+																													</h6>
+																													<p class="center grey-text lighthen-1"
+																														style="font-size: 10px;">
+																														<a class="grey-text lighten-1"
+																															href="highlite.html">
+																															22
+																															jan
+																															2022</a>
+																													</p>
+
+																												</div>
+																											</li>
+																										</div>
+																										<div
+																											class="container">
+																											<li
+																												class="col s4 m4 l4">
+																												<img src="img/Liverpool.png"
+																													alt=""
+																													class="responsive-img right"
+																													style="width: auto;  height: 50px; margin-top: -8px;">
+																											</li>
+																										</div>
+																									</ul>
+																								</div>
+																							</span>
+																					</div>
+																</li>
+														</ul>
+			</div>
+			<div id="test2" class="col s12 grey lighten-4">
+				<ul class="collapsible">
+					<li>
+						<div class="collapsible-header"><i class="material-icons">filter_drama</i>UEFA Champions League
+						</div>
+						<div class="collapsible-body grey lighten-4"><span>
+								<div class="container">
+									<ul class="row" style="height: 30px;">
+
+										<div class="container">
+											<li class="col s4 m4 l4"><img src="img/barce.png" alt=""
+													class="responsive-img" style="width: auto; height: 40px;"></li>
+										</div>
+										<div class="container">
+											<li class="col s4 m4 l4">
+												<div class="sc_ore center">
+													<h6 style="font-weight: bolder;">3 : 1</h6>
+													<p class="center"><a class="red-text lighten-1 center"
+															href="live.html">Live</a></p>
+
+												</div>
+											</li>
+										</div>
+										<div class="container">
+											<li class="col s4 m4 l4"><img src="img/Liverpool.png" alt=""
+													class="responsive-img right" style="width: auto; height: 50px; margin-top: -8px;">
+											</li>
+										</div>
+									</ul>
+								</div>
+							</span></div>
+					</li>
+					<li class="active">
+						<div class="collapsible-header"><i class="material-icons">place</i>World Cup</div>
+						<div class="collapsible-body grey lighten-4" style="border-radius: 10px;">
+							<span>
+								<div class="container">
+									<ul class="row" style="height: 35px;">
+
+										<div class="container">
+											<li class="col s4 m4 l4"><img src="img/barce.png" alt=""
+													class="responsive-img" style="width: auto; height: 40px;"></li>
+										</div>
+										<div class="container">
+											<li class="col s4 m4 l4">
+												<div class="sc_ore center">
+													<h6 style="font-weight: bolder;">3 : 1</h6>
+													<p class="center"><a class="red-text lighten-1 center"
+															href="live.html">Live</a></p>
+
+												</div>
+											</li>
+										</div>
+										<div class="container">
+											<li class="col s4 m4 l4"><img src="img/Liverpool.png" alt=""
+													class="responsive-img right"
+													style="width: auto; height: 50px; margin-top: -8px;">
+											</li>
+										</div>
+									</ul>
+								</div>
+							</span>
+						</div>
+					</li>
+					<li>
+						<div class="collapsible-header"><i class="material-icons">whatshot</i>Bundesliga</div>
+						<div class="collapsible-body grey lighten-4"
+							style="border-radius: 10px; padding: 5px; margin-top: 15px; "><span>
+								<div class="container">
+									<ul class="row" style="height: 20px; ">
+
+										<div class="container">
+											<li class="col s4 m4 l4"><img src="img/barce.png" alt=""
+													class="responsive-img" style="width: auto; height: 40px;"></li>
+										</div>
+										<div class="container">
+											<li class="col s4 m4 l4">
+												<div class="sc_ore center">
+													<h6 style="font-weight: bolder;">3 : 1</h6>
+													<p class="center"><a class="red-text lighten-1 center"
+															href="live.html">Live</a></p>
+
+												</div>
+											</li>
+										</div>
+										<div class="container">
+											<li class="col s4 m4 l4"><img src="img/Liverpool.png" alt=""
+													class="responsive-img right"
+													style="width: auto;  height: 50px; margin-top: -8px;">
+											</li>
+										</div>
+									</ul>
+								</div>
+							</span></div>
+						<div class="collapsible-body grey lighten-4"
+							style="border-radius: 10px; padding: 5px; margin-top: 15px; "><span>
+								<div class="container">
+									<ul class="row" style="height: 20px; ">
+
+										<div class="container">
+											<li class="col s4 m4 l4"><img src="img/barce.png" alt=""
+													class="responsive-img" style="width: auto; height: 40px;"></li>
+										</div>
+										<div class="container">
+											<li class="col s4 m4 l4">
+												<div class="sc_ore center">
+													<h6 style="font-weight: bolder;">3 : 1</h6>
+													<p class="center"><a class="red-text lighten-1 center"
+															href="live.html">Live</a></p>
+
+												</div>
+											</li>
+										</div>
+										<div class="container">
+											<li class="col s4 m4 l4"><img src="img/Liverpool.png" alt=""
+													class="responsive-img right"
+													style="width: auto;  height: 50px; margin-top: -8px;">
+											</li>
+										</div>
+									</ul>
+								</div>
+							</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div id="test3" class="col s12 grey lighten-4">
+				<ul class="collapsible">
+					<li>
+						<div class="collapsible-header"><i class="material-icons">filter_drama</i>Serie A</div>
+						<div class="collapsible-body grey lighten-4"
+							style="border-radius: 10px; padding: 5px; margin-top: 15px; "><span>
+								<div class="container">
+									<ul class="row" style="height: 20px; ">
+
+										<div class="container">
+											<li class="col s4 m4 l4"><img src="img/barce.png" alt=""
+													class="responsive-img" style="width: auto; height: 40px;"></li>
+										</div>
+										<div class="container">
+											<li class="col s4 m4 l4">
+												<div class="sc_ore center">
+													<h6 style="font-weight: bolder;">3 : 1</h6>
+													<p class="center grey-text lighthen-1" style="font-size: 10px;"><a
+															class="grey-text lighten-1" href="highlite.html"> 22
+															jan 2022</a></p>
+
+												</div>
+											</li>
+										</div>
+										<div class="container">
+											<li class="col s4 m4 l4"><img src="img/Liverpool.png" alt=""
+													class="responsive-img right"
+													style="width: auto; height: 50px; margin-top: -8px;">
+											</li>
+										</div>
+									</ul>
+								</div>
+							</span>
+						</div>
+						<div class="collapsible-body grey lighten-4"
+							style="border-radius: 10px; padding: 5px; margin-top: 15px;"><span>
+								<div class="container">
+									<ul class="row" style="height: 20px;">
+
+										<div class="container">
+											<li class="col s4 m4 l4"><img src="img/barce.png" alt=""
+													class="responsive-img" style="width: auto; height: 40px;"></li>
+										</div>
+										<div class="container">
+											<li class="col s4 m4 l4">
+												<div class="sc_ore center">
+													<h6 style="font-weight: bolder;">3 : 1</h6>
+													<p class="center grey-text lighthen-1" style="font-size: 10px;"><a
+															class="grey-text lighten-1" href="highlite.html"> 22
+															jan 2022</a></p>
+
+												</div>
+											</li>
+										</div>
+										<div class="container">
+											<li class="col s4 m4 l4"><img src="img/Liverpool.png" alt=""
+													class="responsive-img right"
+													style="width: auto; height: 50px; margin-top: -8px;">
+											</li>
+										</div>
+									</ul>
+								</div>
+							</span>
+						</div>
+					</li>
+					<li>
+						<div class="collapsible-header"><i class="material-icons">place</i>Spanish LaLiga</div>
+						<div class="collapsible-body grey lighten-4"
+							style="border-radius: 10px; padding: 5px; margin-top: 15px;">
+							<span>
+								<div class="container">
+									<ul class="row" style="height: 20px; ">
+
+										<div class="container">
+											<li class="col s4 m4 l4"><img src="img/barce.png" alt=""
+													class="responsive-img" style="width: auto; height: 40px;"></li>
+										</div>
+										<div class="container">
+											<li class="col s4 m4 l4">
+												<div class="sc_ore center">
+													<h6 style="font-weight: bolder;">3 : 1</h6>
+													<p class="center grey-text lighthen-1" style="font-size: 10px;"><a
+															class="grey-text lighten-1" href="highlite.html"> 22
+															jan 2022</a></p>
+
+												</div>
+											</li>
+										</div>
+										<div class="container">
+											<li class="col s4 m4 l4"><img src="img/Liverpool.png" alt=""
+													class="responsive-img right"
+													style="width: auto;  height: 50px; margin-top: -8px;"">
+											</li>
+										</div>
+									</ul>
+								</div>
+							</span></div>
+							<div class=" collapsible-body grey lighten-4" style="border-radius: 10px; padding: 5px; margin-top: 15px;">
+												<span>
+													<div class="container">
+														<ul class="row" style="height: 20px; ">
+
+															<div class="container">
+																<li class="col s4 m4 l4"><img src="img/barce.png" alt=""
+																		class="responsive-img"
+																		style="width: auto; height: 40px;"></li>
+															</div>
+															<div class="container">
+																<li class="col s4 m4 l4">
+																	<div class="sc_ore center">
+																		<h6 style="font-weight: bolder;">3 : 1</h6>
+																		<p class="center grey-text lighthen-1"
+																			style="font-size: 10px;"><a
+																				class="grey-text lighten-1"
+																				href="highlite.html"> 22
+																				jan 2022</a></p>
+
+																	</div>
+																</li>
+															</div>
+															<div class="container">
+																<li class="col s4 m4 l4"><img src="img/Liverpool.png"
+																		alt="" class="responsive-img right"
+																		style="width: auto;  height: 50px; margin-top: -8px;"">
+												</li>
+											</div>
+										</ul>
+									</div>
+								</span></div>
+					</li>
+					<li class=" active">
+																	<div class="collapsible-header"><i
+																			class="material-icons">whatshot</i>Premier
+																		League</div>
+																	<div class="collapsible-body grey lighten-4"
+																		style="border-radius: 10px; padding: 15px;">
+																		<span>
+																			<div class="container">
+																				<ul class="row" style="height: 35px; ">
+
+																					<div class="container">
+																						<li class="col s4 m4 l4"><img
+																								src="img/barce.png"
+																								alt=""
+																								class="responsive-img"
+																								style="width: auto; height: 40px;">
+																						</li>
+																					</div>
+																					<div class="container">
+																						<li class="col s4 m4 l4">
+																							<div class="sc_ore center">
+																								<h6
+																									style="font-weight: bolder;">
+																									3 : 1</h6>
+																								<p class="center grey-text lighthen-1"
+																									style="font-size: 10px;">
+																									<a class="grey-text lighten-1"
+																										href="highlite.html">
+																										22
+																										jan 2022</a></p>
+
+																							</div>
+																						</li>
+																					</div>
+																					<div class="container">
+																						<li class="col s4 m4 l4"><img
+																								src="img/Liverpool.png"
+																								alt=""
+																								class="responsive-img right"
+																								style="width: auto;  height: 50px; margin-top: -8px;"">
+											</li>
+										</div>
+									</ul>
+								</div>
+							</span></div>
+							<div class="collapsible-body grey lighten-4" style="border-radius: 10px; padding: 5px; margin-top: 15px;">
+																							<span>
+																								<div class="container"
+																									style="padding-bottom: 20px;">
+																									<ul class="row"
+																										style="height: 20px; ">
+
+																										<div
+																											class="container">
+																											<li
+																												class="col s4 m4 l4">
+																												<img src="img/barce.png"
+																													alt=""
+																													class="responsive-img"
+																													style="width: auto; height: 40px;">
+																											</li>
+																										</div>
+																										<div
+																											class="container">
+																											<li
+																												class="col s4 m4 l4">
+																												<div
+																													class="sc_ore center">
+																													<h6
+																														style="font-weight: bolder;">
+																														3
+																														:
+																														1
+																													</h6>
+																													<p class="center grey-text lighthen-1"
+																														style="font-size: 10px;">
+																														<a class="grey-text lighten-1"
+																															href="highlite.html">
+																															22
+																															jan
+																															2022</a>
+																													</p>
+
+																												</div>
+																											</li>
+																										</div>
+																										<div
+																											class="container">
+																											<li
+																												class="col s4 m4 l4">
+																												<img src="img/Liverpool.png"
+																													alt=""
+																													class="responsive-img right"
+																													style="width: auto;  height: 50px; margin-top: -8px;">
+																											</li>
+																										</div>
+																									</ul>
+																								</div>
+																							</span>
+																					</div>
+																</li>
+														</ul>
+													</div>
+										</div>
+
+								</div>
+						</div>
+
+
+
+
+						<!--bottom nav-->
+						<div class="bottom_nav">
+							<nav class="nav " id="myDIV">
+								<a href="index.html" class="nav__link ">
+									<i class="material-icons nav__icon">home</i>
+
+
+
+								</a>
+								<a href="games.html" class="nav__link nav__link--active  ">
+									<i class="material-icons nav__icon">person</i>
+
+								</a>
+								<a href="community.html" class="nav__link">
+									<i class="material-icons nav__icon">devices</i>
+
+								</a>
+
+								<a href="Wallet.html" class="nav__link">
+									<i class="material-icons nav__icon">account_balance_wallet</i>
+
+								</a>
+							</nav>
+						</div>
+			</div>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+			<!--JavaScript at end of body for optimized loading-->
+			<script src="/path/to/flickity.pkgd.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+			<script src="main.js"></script>
+			<script>
+				//sidenav//
+				$(document).ready(function () {
+					$('.sidenav').sidenav();
+				});
+				//sideNav ends//
+
+
+
+
+				//acordion//
+
+				var acc = document.getElementsByClassName("accordion");
+				var i;
+
+				for (i = 0; i < acc.length; i++) {
+					acc[i].addEventListener("click", function () {
+						/* Toggle between adding and removing the "active" class,
+						to highlight the button that controls the panel */
+						this.classList.toggle("active");
+
+						/* Toggle between hiding and showing the active panel */
+						var panel = this.nextElementSibling;
+						if (panel.style.display === "block") {
+							panel.style.display = "none";
+						} else {
+							panel.style.display = "block";
+						}
+					});
+				}
+				//acordion ends//
+
+				//tabs start//
+
+
+
+				function openCity(evt, cityName) {
+					var i, tabcontent, tablinks;
+					tabcontent = document.getElementsByClassName("tabcontent");
+					for (i = 0; i < tabcontent.length; i++) {
+						tabcontent[i].style.display = "none";
+					}
+					tablinks = document.getElementsByClassName("tablinks");
+					for (i = 0; i < tablinks.length; i++) {
+						tablinks[i].className = tablinks[i].className.replace(" active", "");
+					}
+					document.getElementById(cityName).style.display = "block";
+					evt.currentTarget.className += " active";
+				}
+				//tab ends//
+
+				$(document).ready(function () {
+					$('.tabs').tabs();
+				});
+
+				//accordion//
+				$(document).ready(function () {
+					$('.collapsible').collapsible();
+				});
+
+			</script>
+</body>
+
+</html>

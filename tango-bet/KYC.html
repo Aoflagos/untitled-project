@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js">
+	</script>
+
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!--swifty slider-->
+	<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
+		defer></script>
+	<link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.0/dist/css/swiffy-slider.min.css" rel="stylesheet"
+		crossorigin="anonymous">
+
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<link rel="stylesheet" href="style.css">
+	</script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+
+	<title>kyc</title>
+</head>
+<body onload="document.getElementById('defaultOpen').click();">
+
+	<!--nav-->
+	<header>
+
+		<nav class="bx_sh ">
+			<div class="nav-wrapper grey lighten-3">
+				<a href="#!" class="brand-logo text_up black-text ">KYC</a>
+				<a href="profile.html"><i class="large material-icons right black-text">account_circle</i></a>
+				<a href="Wallet.html"> <i class="large material-icons left black-text">chevron_left</i> </a>
+			</div>
+		</nav>
+	</header>
+	<div class="container">
+	<p>Upload your KYC</p>
+	
+		<div class="tab tabs_bt">
+			<button class="tablinks active " onclick="openCity(event, 'London')" id="defaultOpen">Personal
+				Details</button>
+			<button class="tablinks center" onclick="openCity(event, 'Paris')">Bank Details</button>
+		</div>
+		<div id="London" class="tabcontent">
+			<h6>Enter Your Details</h6>
+			<div class="chat_input">
+				<p>Full Name</p>
+				<input type="text" placeholder="Enter full name..." class="transparent">
+
+			</div>
+			<div class="chat_input">
+				<p>Phone number</p>
+				<input type="text" placeholder="Enter phone number..." class="transparent">
+
+			</div>
+			<div class="chat_input">
+				<p>Email</p>
+				<input type="text" placeholder="Enter email..." class="transparent">
+
+			</div>
+			<a class="waves-effect waves-light btn place deep-purple accent-4" href="#next">Next</a>
+					
+					
+		</div>
+
+		<div id="Paris" class="tabcontent" id="next">
+			<h6>Enter Your Bank Details</h6>
+			<div class="chat_input">
+				<p>Account Number</p>
+				<input type="text" placeholder="Enter full name..." class="transparent">
+
+			</div>
+			<div class="chat_input">
+				<p>Account Name</p>
+				<input type="text" placeholder="Enter phone number..." class="transparent">
+
+			</div>
+			
+				
+				<div class="input-field col s12">
+					<select>
+					  <option value="" disabled selected>Choose your option</option>
+					  <option value="1">Zenith</option>
+					  <option value="2">GTBank</option>
+					  <option value="3">Polaris</option>
+					</select>
+					<label>Banks</label>
+				  </div>
+
+			
+			<a class="waves-effect waves-light btn place deep-purple accent-4" href="#">SUBMIT</a>
+					
+			</div>
+			
+		</div>
+	
+	</div>
+
+
+	<ul class="list-inline">
+		<li class="list-inline-item">
+		  <a class="btn btn-primary btn-social" href="#"><i class="fab fa-facebook-f"></i><span class="sr-only">Share on Facebook</span></a>
+		</li>
+		<li class="list-inline-item">
+		  <a class="btn btn-primary btn-social" href="#"><i class="fab fa-twitter"></i><span class="sr-only">Share on Twitter</span></a>
+		</li>
+		<li class="list-inline-item">
+		  <a class="btn btn-primary btn-social" href="#"><i class="fas fa-envelope"></i><span class="sr-only">Share on Email</span></a>
+		</li>
+		<li class="list-inline-item">
+		  <a class="btn btn-primary btn-social" href="#"><i class="fab fa-instagram"></i><span class="sr-only">Share on Instagram</span></a>
+		</li>
+		<li class="list-inline-item">
+		  <a class="btn btn-primary btn-social" href="#"><i class="fab fa-linkedin-in"></i><span class="sr-only">Share on LinkedIn</span></a>
+		</li>
+		<li class="list-inline-item">
+		  <a class="btn btn-primary btn-social" href="#"><i class="fab fa-youtube"></i><span class="sr-only">Share on YouTube</span></a>
+		</li>
+	  </ul>
+
+	<script>
+
+function openCity(evt, cityName) {
+			var i, tabcontent, tablinks;
+			tabcontent = document.getElementsByClassName("tabcontent");
+			for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			}
+			tablinks = document.getElementsByClassName("tablinks");
+			for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].className = tablinks[i].className.replace(" active", "");
+			}
+			document.getElementById(cityName).style.display = "block";
+			evt.currentTarget.className += " active";
+}
+//tab ends//
+
+
+
+
+//input select//
+
+$(document).ready(function(){
+    $('select').formSelect();
+  });
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('select');
+    var instances = M.FormSelect.init(elems, options);
+  });
+  
+	</script>
+</body>
+</html>
